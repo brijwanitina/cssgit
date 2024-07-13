@@ -1,0 +1,13 @@
+/* selector */
+p {
+    /* rule */
+    /* property:value */
+    color: rgba(223, 153, 237, 0.714);
+    background-color:rgb(57, 57, 46);
+    border-bottom: 10px solid red;
+    border:20px solid rgb(180, 31, 31);
+
+}
+
+/* ruleset */
+/* select all the p tags and apply the given rules,i.e, apply color as red */
