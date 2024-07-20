@@ -1,0 +1,57 @@
+/* class selector */
+.para{
+    color: red;
+}
+
+/* element selector */
+/*p{
+    color: aqua;
+}/*
+/* higher priority is of class selector that is .para wale sab red and beech wala aqua */
+/* id selector */
+#para4{
+    color: green;
+}
+#para5{
+    color: yellow;
+}
+/* id should be unique but if not it wont give any error...matlab agar mai para 5 mei id ko para 4 likhti hu vo green color he dega but error nhi dega  */
+/* .success means choose all class having name success*/
+/* class and element */
+p.success{
+    color: violet;
+    background-color: black;
+}
+/* element and id */
+p#test{
+    color: red;
+    background-color: yellow;
+}
+h2.success{
+    color: aquamarine;
+    background-color: chocolate;
+}
+/* descendant selector-select all descendants(children) */
+div p{
+    color: blue;
+}
+div h3{
+    color: grey;
+}
+/* child selector only selects first level elemenets-direct children
+ */
+div>p{
+    color: teal;
+}
+/* background image */
+/* text color b yahi change kr sakte h bcz ye directly div ko target kr rha h */
+#bg-img{
+    color: white;
+    height:300px;
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-color: darkolivegreen;
+    /* background size contain image ko thoda bada krta h aur cover pura screen cover krta h */
+    background-size: contain;
+
+}
