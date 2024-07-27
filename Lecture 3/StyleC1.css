@@ -1,0 +1,38 @@
+div{
+    border: 2px solid rgb(177, 56, 76);
+}
+
+.bg{
+    background-image: url('https://images.pexels.com/photos/2819088/pexels-photo-2819088.jpeg?auto=compress&cs=tinysrgb&w=600');
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 700px;
+    background-position: center center;
+    padding: 20px;
+}
+.box{
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color:darkgoldenrod;
+}
+.container{
+    width: 600px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+}
+.m-auto{
+    background-color: aqua;
+    height: 100px;
+    width: 500px;
+    /* brings the movable box to centre,no top bottom */
+    margin:auto;
+    /* gives 10px from all sides,it wont come in centre,it will overwrite */
+    /* margin: 10px; */
+}
+
